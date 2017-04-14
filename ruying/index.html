@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <script type="application/javascript" src="js/bootstrap/jquery-2.0.2.min.js"></script>
+    <script type="application/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <style>
+        html body{margin: 0;padding: 0;}
+        .header{
+            height: 32px;
+            color: #919191;
+            background-color: #f2f2f2;
+            border-bottom: 1px solid #e1e1e1;
+            font:12px/32px 宋体;
+        }
+        .header_content,.header_logo_content,.classbar_content{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .header_left{
+            float: left;
+        }
+        .header_right{
+            float: right;
+        }
+        .header a{
+             text-decoration: none;
+            margin: 20px;
+        }
+        .header a:hover{
+            color: #ff7e00;
+        }
+        .img_bk{
+            display: inline-block;
+            position: relative;
+            width:20px;
+            height: 15px;
+        }
+        .header_left .img_bk b{
+            background: url("img/head_foot.png") no-repeat 0 0;
+        }
+        .header_left .img_bk b{
+            top: 3px;
+            width: 16px;
+            height: 16px;
+            background-position: 0 -147px;
+            position: absolute;
+        }
+        .header_right .img_bk b{
+            background: url("img/head_foot.png") no-repeat 0 0;
+        }
+        .header_right .img_bk b{
+            top: 3px;
+            width: 16px;
+            height: 16px;
+            background-position: 0 0px;
+            position: absolute;
+        }
+        .small_down{
+            position: relative;
+            border-color: #9b9b9b transparent transparent transparent;
+            top: 8px;
+            border-style: solid dashed dashed dashed;
+        }
+        .header_right li{
+            list-style:none;
+        }
+        .header_right li ul{
+            display: none;
+            border: 1px solid #cacaca;
+            border-top: none;
+            background: #FFF;
+            width: 600px;
+            padding: 20px 0;
+            position: absolute;
+            right: 1px;
+            top: 32px;
+            box-sizing: border-box;
+            z-index: 30;
+            height: 250px;
+        }
+        .header_right li:hover ul{
+            display: block;
+        }
+        .header_logo{
+            width: 100%;
+            height: 124px;
+            background: #ababab;
+        }
+        .slide{
+            width: 100%;
+            height: 364px;
+            background: #b0c4de;
+        }
+        .classbar{
+            width: 100%;
+            height: 40px;
+            background: #00B83F;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header_content">
+            <div class="header_left">
+                <a href="#">
+                    <s class="img_bk">
+                        <b></b>
+                    </s>
+                    首页
+                </a>
+
+                <a href="#">登录</a>
+
+                <a href="#">去注册</a>
+            </div>
+
+            <div class="header_right">
+                <a href="#">
+                    <s class="img_bk">
+                        <b></b>
+                    </s>
+                    我的订单
+                </a>
+
+                <a href="#">
+                    <s class="img_bk">
+                        <b style="background-position: -17px 0;"></b>
+                    </s>
+                    已购0件</a>
+
+                <a href="#">加入平台</a>
+
+                <li style="float:right;">
+                    <a href="#">
+                        <s class="img_bk">
+                            <b style="background-position: 0 -46px;"></b>
+                        </s>网站导航
+                        <b class="small_down"></b>
+                    </a>
+                    <ul>
+                        <li><a href="#">123</a></li>
+                        <li><a href="#">123</a></li>
+                    </ul>
+                </li>
+
+            </div>
+            <p>欢迎使用系统！</p>
+        </div>
+    </div>
+
+    <div class="header_logo">
+        <div class="header_logo_content">
+            <p>123</p>
+        </div>
+    </div>
+
+    <div class="slide">
+
+    </div>
+
+    <div class="classbar">
+        <div class="classbar_content">
+            <p>123</p>
+        </div>
+    </div>
+
+    <div class="content">
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
